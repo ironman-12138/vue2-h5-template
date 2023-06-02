@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 
 import './assets/js/flexible' //屏幕适配
 
@@ -14,6 +15,7 @@ Vue.use(Vant)
 import 'vant/lib/index.css'
 
 Vue.config.productionTip = false
+Vue.prototype.$store = store
 
 /* eslint-disable no-new */
 new Vue({
