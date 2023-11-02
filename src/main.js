@@ -7,6 +7,9 @@ import store from './store'
 
 import './assets/js/flexible' //屏幕适配
 
+import { initDebugTool } from '@/utils/debug'
+initDebugTool()
+
 import Vuex from 'vuex'
 Vue.use(Vuex)
 
